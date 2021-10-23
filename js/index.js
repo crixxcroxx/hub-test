@@ -4,3 +4,4 @@ fetch(`../data/name.json`)
     console.log(typeof data)
     document.getElementById(`name`).innerText = data.one
   })
+  .catch(err => console.error(err))
