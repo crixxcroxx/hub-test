@@ -7,7 +7,7 @@ let opt = {
   cache: 'default'
 };
 
-let req = new Request(`../data/name.json`, opt)
+let req = new Request(`data/name.json`, opt)
 
 fetch(req)
   .then(res => { return res.json() })
